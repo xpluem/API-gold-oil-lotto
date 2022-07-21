@@ -27,6 +27,24 @@ http://103.141.68.98:8000/gold
   }
 }
 ```
+# โค้ดสำหรับดึงรายการภาษา PHP
+```php
+$curl = curl_init();
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'http://103.141.68.98:8000/gold',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+));
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
+```
+
 # oil
 http://103.141.68.98:8000/oil
 # Response
@@ -72,6 +90,23 @@ http://103.141.68.98:8000/oil
   }
 }
 ```
+```php
+$curl = curl_init();
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'http://103.141.68.98:8000/oil',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+));
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
+```
+
 # lotto
 http://103.141.68.98:8000/lotto
 # Response
@@ -124,4 +159,20 @@ http://103.141.68.98:8000/lotto
     ]
   }
 }
+```
+```php
+$curl = curl_init();
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'http://103.141.68.98:8000/lotto',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+));
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
 ```

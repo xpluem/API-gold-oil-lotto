@@ -2,6 +2,23 @@
 สามารถ สนับสนุน ได้ที่ 0983437435 กสิกรไทย 
 # gold
 http://103.141.68.98:8000/gold
+# โค้ดสำหรับดึงรายการภาษา PHP
+```php
+$curl = curl_init();
+curl_setopt_array($curl, array(
+  CURLOPT_URL => 'http://103.141.68.98:8000/gold',
+  CURLOPT_RETURNTRANSFER => true,
+  CURLOPT_ENCODING => '',
+  CURLOPT_MAXREDIRS => 10,
+  CURLOPT_TIMEOUT => 0,
+  CURLOPT_FOLLOWLOCATION => true,
+  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+  CURLOPT_CUSTOMREQUEST => 'GET',
+));
+$response = curl_exec($curl);
+curl_close($curl);
+echo $response;
+```
 # Response
 ```javascript
 {
@@ -27,11 +44,13 @@ http://103.141.68.98:8000/gold
   }
 }
 ```
-# โค้ดสำหรับดึงรายการภาษา PHP
+
+# oil
+http://103.141.68.98:8000/oil
 ```php
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://103.141.68.98:8000/gold',
+  CURLOPT_URL => 'http://103.141.68.98:8000/oil',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -44,9 +63,6 @@ $response = curl_exec($curl);
 curl_close($curl);
 echo $response;
 ```
-
-# oil
-http://103.141.68.98:8000/oil
 # Response
 ```javascript
 {
@@ -90,10 +106,13 @@ http://103.141.68.98:8000/oil
   }
 }
 ```
+
+# lotto
+http://103.141.68.98:8000/lotto
 ```php
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://103.141.68.98:8000/oil',
+  CURLOPT_URL => 'http://103.141.68.98:8000/lotto',
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => '',
   CURLOPT_MAXREDIRS => 10,
@@ -106,9 +125,6 @@ $response = curl_exec($curl);
 curl_close($curl);
 echo $response;
 ```
-
-# lotto
-http://103.141.68.98:8000/lotto
 # Response
 ```javascript
 {
@@ -159,20 +175,4 @@ http://103.141.68.98:8000/lotto
     ]
   }
 }
-```
-```php
-$curl = curl_init();
-curl_setopt_array($curl, array(
-  CURLOPT_URL => 'http://103.141.68.98:8000/lotto',
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => '',
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 0,
-  CURLOPT_FOLLOWLOCATION => true,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => 'GET',
-));
-$response = curl_exec($curl);
-curl_close($curl);
-echo $response;
 ```

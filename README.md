@@ -26,20 +26,20 @@ echo $response;
   "status": "success",
   "Develop by": "Patiphan Srieamkul",
   "response": {
-    "date": "ปรับราคาเมื่อ 21 ก.ค. 65 (09:26 น.)",
+    "date": "ปรับราคาเมื่อ xx x.x. xx (xx:xx น.)",
     "endpoint": "https://www.sanook.com/money/goldrate/",
     "details": [
       {
         "name": "ทองคำแท่ง",
         "details": "ความบริสุทธิ์ทองคำ 96.5%",
-        "purchase_price": "29,450.00",
-        "selling_price": "29,550.00"
+        "purchase_price": "xx,xxx.xx",
+        "selling_price": "xx,xxx.xx"
       },
       {
         "name": "ทองรูปพรรณ",
         "details": "ความบริสุทธิ์ทองคำ 96.5%",
-        "purchase_price": "28,925.28",
-        "selling_price": "30,050.00"
+        "purchase_price": "xx,xxx.xx",
+        "selling_price": "xx,xxx.xx"
       }
     ]
   }
@@ -70,37 +70,37 @@ echo $response;
   "status": "success",
   "Develop by": "Patiphan Srieamkul",
   "response": {
-    "date": "19 ก.ค. 65",
+    "date": "xx x.x. xx",
     "endpoint": "https://www.sanook.com/money/oil-price/",
     "details": [
       {
         "name": "แก๊สโซฮอล์ 95",
-        "price": "38.25",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_95.png"
       },
       {
         "name": "แก๊สโซฮอล์ 91",
-        "price": "37.98",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_91.png"
       },
       {
         "name": "แก๊สโซฮอล์ E20",
-        "price": "37.14",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_E20.png"
       },
       {
         "name": "แก๊สโซฮอล์ E85",
-        "price": "33.34",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oil/e85plus.png"
       },
       {
         "name": "ดีเซลพรีเมี่ยม",
-        "price": "48.86",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oilhyforce_diesel.png"
       },
       {
         "name": "ดีเซล B7",
-        "price": "34.94",
+        "price": "xx.xx",
         "image": "https://s.isanook.com/sr/0/images/money/oil/delta.png"
       }
     ]
@@ -132,7 +132,7 @@ echo $response;
   "status": "success",
   "Develop by": "Patiphan Srieamkul",
   "response": {
-    "date": "16 กรกฎาคม 2565",
+    "date": "xx xx xxxx",
     "endpoint": "https://news.sanook.com/lotto/",
     "prizes": [
       {
@@ -141,7 +141,7 @@ echo $response;
         "reward": "6000000",
         "amount": 1,
         "number": [
-          "620405"
+          "xxxxxx"
         ]
       },
       {
@@ -150,8 +150,8 @@ echo $response;
         "reward": "4000",
         "amount": 2,
         "number": [
-          "159",
-          "834"
+          "xxx",
+          "xxx"
         ]
       },
       {
@@ -160,8 +160,8 @@ echo $response;
         "reward": "4000",
         "amount": 2,
         "number": [
-          "061",
-          "279"
+          "xxx",
+          "xxx"
         ]
       },
       {
@@ -170,7 +170,7 @@ echo $response;
         "reward": "2000",
         "amount": 1,
         "number": [
-          "53"
+          "xx"
         ]
       }
     ]

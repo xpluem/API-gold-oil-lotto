@@ -27,3 +27,101 @@ http://103.141.68.98:8000/gold
   }
 }
 ```
+# oil
+http://103.141.68.98:8000/oil
+# Response
+```javascript
+{
+  "status": "success",
+  "Develop by": "Patiphan Srieamkul",
+  "response": {
+    "date": "19 ก.ค. 65",
+    "endpoint": "https://www.sanook.com/money/oil-price/",
+    "details": [
+      {
+        "name": "แก๊สโซฮอล์ 95",
+        "price": "38.25",
+        "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_95.png"
+      },
+      {
+        "name": "แก๊สโซฮอล์ 91",
+        "price": "37.98",
+        "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_91.png"
+      },
+      {
+        "name": "แก๊สโซฮอล์ E20",
+        "price": "37.14",
+        "image": "https://s.isanook.com/sr/0/images/money/oil/gasohol_E20.png"
+      },
+      {
+        "name": "แก๊สโซฮอล์ E85",
+        "price": "33.34",
+        "image": "https://s.isanook.com/sr/0/images/money/oil/e85plus.png"
+      },
+      {
+        "name": "ดีเซลพรีเมี่ยม",
+        "price": "48.86",
+        "image": "https://s.isanook.com/sr/0/images/money/oilhyforce_diesel.png"
+      },
+      {
+        "name": "ดีเซล B7",
+        "price": "34.94",
+        "image": "https://s.isanook.com/sr/0/images/money/oil/delta.png"
+      }
+    ]
+  }
+}
+```
+# lotto
+http://103.141.68.98:8000/lotto
+# Response
+```javascript
+{
+  "status": "success",
+  "Develop by": "Patiphan Srieamkul",
+  "response": {
+    "date": "16 กรกฎาคม 2565",
+    "endpoint": "https://news.sanook.com/lotto/",
+    "prizes": [
+      {
+        "id": "prizeFirst",
+        "name": "รางวัลที่ 1",
+        "reward": "6000000",
+        "amount": 1,
+        "number": [
+          "620405"
+        ]
+      },
+      {
+        "id": "runningNumberFrontThree",
+        "name": "รางวัลเลขหน้า 3 ตัว",
+        "reward": "4000",
+        "amount": 2,
+        "number": [
+          "159",
+          "834"
+        ]
+      },
+      {
+        "id": "runningNumberBackThree",
+        "name": "รางวัลเลขท้าย 3 ตัว",
+        "reward": "4000",
+        "amount": 2,
+        "number": [
+          "061",
+          "279"
+        ]
+      },
+      {
+        "id": "runningNumberBackTwo",
+        "name": "รางวัลเลขท้าย 2 ตัว",
+        "reward": "2000",
+        "amount": 1,
+        "number": [
+          "53"
+        ]
+      }
+    ]
+  }
+}
+```
